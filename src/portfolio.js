@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Beomgyu Kim",
+  title: "Hi all, I'm Beomgyu Kim",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "AI and algorithm enthusiast. In the Hanyang Univserity Visual Intelligence Lab (HYUVILAB), I mainly conducted research on the super-resolution, implcit neural representation, and latest deep learning architectures such as diffusion model."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KSnCeL8j-vrHaxx3tHhAIKFWLzMJYI4C/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/solarmagic",
+  linkedin: "https://www.linkedin.com/in/solarmagic/",
+  gmail: "solmagix@gmail.com",
+  // BOJ: "https://www.acmicpc.net/user/solarmagic",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ I have experience solving algorithm problems or carrying out projects in various languages such as C/C++/Python/Java."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I created a model with PyTorch/Tensorflow and conducted training and testing."
+    ),
+    emoji(
+      "⚡ I document through Markdown and LaTeX, and collaborate with my team through git, slack, trello, etc."
     )
   ],
 
@@ -65,55 +68,47 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "C/C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Markdown",
+      fontAwesomeClassname: "fab fa-markdown"
+    },
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Computer Vision",
+      fontAwesomeClassname: "fas fa-eye"
+    },
+    {
+      skillName: "SQL-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "CloudFlare",
+      fontAwesomeClassname: "fab fa-cloudflare"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -126,23 +121,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Hanyang University",
+      logo: require("./assets/images/HYU_logo_singlecolor_png.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "March 2022 - August 2024",
+      desc: "Visual Intelligence Lab, Major GPA 4.24",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Scale-Arbitrary Super-Resolution with Latent Diffusion Model",
+        "Position Classification on the Endotracheal Tube with Automatic Segmentation of the Trachea and the Tube on Plain Chest Radiography Using Deep Convolutional Neural Network"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Hanyang University",
+      logo: require("./assets/images/HYU_logo_singlecolor_png.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "March 2017 - February 2022",
+      desc: "Cum Laude, Major GPA 4.01"
     }
   ]
 };
@@ -153,15 +147,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Algorithm", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Deep Learning (Computer Vision, Architecture)",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Computer Security (Webhacking, Cryptography, Pwanble)",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +168,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research Student",
+      company: "Queen's University Belfast ECIT",
+      companylogo: require("./assets/images/qub_logo.png"),
+      date: "Sep 2019 – Dec 2019",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Machine learning based web application firewall.",
+        "Intentionally creating a vulnerable web and collecting malicious packets.",
+        "ML-based WAF production and demonstration using RandomForest, N-gram, etc."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mentee (ML Engineer)",
+      company: "SW Maestro",
+      companylogo: require("./assets/images/swm_logo.jpeg"),
+      date: "Apr 2020 – Dec 2020",
+      descBullets: [
+        "Artificial intelligence assist training “Maesil”(daily indoor exercise).",
+        "Research and cooperation on 3d pose estimation, real-time 2d pose estimation, pose match, etc.",
+        "Learn domain management, documentation, and collaboration."
+      ]
     }
   ]
 };
@@ -206,37 +197,49 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Extracurricular Activities",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/BOJ.png"),
+      projectName: "Baekjoon Online Judge",
+      projectDesc:
+        "Solved 2400+ Problems in BOJ, Tested 7 Problems for UNIST’s programming competition",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "BOJ",
+          url: "https://boj.kr/u/solarmagic"
+        },
+        {
+          name: "SOLVED.AC",
+          url: "http://solved.ac/solarmagic"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/5226665.png"),
+      projectName: "ICEWALL",
+      projectDesc:
+        "School Hacking Defense club, 1st Place in 2018 internal CTF, 3rd Place in 2019 internal CTF, Created 1 Problem for 2018 HCTF, Penetration test on campus homepage"
+    },
+    {
+      image: require("./assets/images/hyualoha.jpg"),
+      projectName: "ALOHA",
+      projectDesc:
+        "Study algorithms at the school algorithm club, 3rd place in internal competition 2017, 10th place in Korea Univ., Sookmyung Women’s Univ. Hanyang Univ. integrated club competition"
+    },
+    {
+      image: require("./assets/images/hai.png"),
+      projectName: "HAI",
+      projectDesc:
+        "Founding member of the first AI club on campus, Basic AI studty with other members, Reading and presenting trend AI papers"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -246,56 +249,92 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Competitions and Awards🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "School Competition",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Won awards in school algorithm competition and security competition",
+      image: require("./assets/images/HYU_logo_singlecolor_png.png"),
+      imageAlt: "Hanyang University",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "2017 HCPC Beginner Division 1st Place"
+          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "2020 HCTF Advanced Division 2nd Place"
+          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         }
+        // {
+        //   name: "Google Code-in Blog",
+        //   // url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "ICPC",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Starting to participate in the competition in 2017. In the 2021 preliminary, we achieved good results and achieved two first-solves.",
+      image: require("./assets/images/ICPCLogo-Regionals-2017-standard_hi.png"),
+      imageAlt: "ICPC Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "2021 ICPC Seoul Regional Preliminary 8th",
+          url: "https://static.icpckorea.net/2021/scoreboard_preliminary/"
+        },
+        {
+          name: "2021 ICPC Seoul Regional 22nd",
+          url: "http://static.icpckorea.net/2021/scoreboard_regional/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "UCPC",
+      subtitle:
+        "Passed the preliminary competition for four consecutive years and advanced to the finals of Union of Clubs for Programming Contests",
+      image: require("./assets/images/UCPC.png"),
+      imageAlt: "UCPC Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "2018 UCPC 27th",
+          url: "https://www.acmicpc.net/contest/spotboard/314"
+        },
+        {
+          name: "2019 UCPC 27th",
+          url: "https://www.acmicpc.net/contest/spotboard/450"
+        },
+        {
+          name: "2020 UCPC 23rd",
+          url: "https://www.acmicpc.net/contest/spotboard/524"
+        },
+        {
+          name: "2021 UCPC 35th",
+          url: "https://www.acmicpc.net/contest/spotboard/670"
+        }
+      ]
+    },
+    {
+      title: "Company-hosted competition",
+      subtitle:
+        "I achieved good results in competitions hosted by Samsung, Hyundai Mobis, and Brandi.",
+      image: require("./assets/images/group-business-people-having-meeting_53876-14814.avif"),
+      imageAlt: "enterprise",
+      footerLink: [
+        {
+          name: "2020 Brandi Codename B 7~16th place",
+          url: ""
+        },
+        {
+          name: "2020 SCPC Finalist"
+        },
+        {
+          name: "Hyundai mobis algorithm contest 17th Place",
+          url: ""
         }
       ]
     }
@@ -307,21 +346,32 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  // subtitle:
+  // "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://hackmd.io/@solarmagic/SyMqs4xZP",
+      title: "Calculate the similarity of movements between two people",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "An article written after thinking about movement matching during SW Maestro"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://hackmd.io/@solarmagic/ByrZuCOFw",
+      title: "Maesil 3D model (SW Maestro)",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "An article written after thinking about the model during SW Maestro"
+    },
+    {
+      url: "https://hackmd.io/@solarmagic/scpc2020r1",
+      title: "Review and solution code for SCPC 2020 Round 1",
+      description: "Review and solution code for SCPC 2020 Round 1"
+    },
+    {
+      url: "https://hackmd.io/@solarmagic/SJ2bpnCDF",
+      title: "2021 Algorithm Team Competition Review",
+      description:
+        "Review of practice and competition results with team members in 2021"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +393,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +406,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+82-10-7520-4034",
+  email_address: "solmagix@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
