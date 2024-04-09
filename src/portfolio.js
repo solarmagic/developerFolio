@@ -26,7 +26,7 @@ const greeting = {
     "AI and algorithm enthusiast. In the Hanyang Univserity Visual Intelligence Lab (HYUVILAB), I mainly conducted research on the super-resolution, implcit neural representation, and latest deep learning architectures such as diffusion model."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KSnCeL8j-vrHaxx3tHhAIKFWLzMJYI4C/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1S68zu40vv_aPXS9_sz-odKHYkPfszCU8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
